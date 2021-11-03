@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import terraverdesalse from '../public/work/terraverde-salse.jpg'
-
+import lafestuca from '../public/work/festuca/uno.jpg'
 
 const page = () => (
   <div>
@@ -25,14 +25,23 @@ const page = () => (
           <li>Social Work</li>
         </ul>
       </nav>
-      <section>
+      <section className="p-4 bg-grey-200">
         <Image src={terraverdesalse} alt="terra verde salse" ></Image>
-        <h2>
-          La Festuca
-          <small>Biologica tradizione ticinese dal 1982</small>
+        <h2 className="text-xl text-red-800">
+          Terra Verde
+          <small className="block text-grey-700">Biologica tradizione dal 1982</small>
         </h2>
         <p>Blah blah</p>
       </section>
+      <section>
+        <Image src={lafestuca} alt="yogurt la festuca" ></Image>
+        <h2>
+          La Festuca
+          <small>Biologica tradizione ticinese</small>
+        </h2>
+        <p>Blah blah</p>
+      </section>
+  
     </main>
   </div>
 )
