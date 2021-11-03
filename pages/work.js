@@ -25,11 +25,11 @@ const page = () => (
           <li>Social Work</li>
         </ul>
       </nav>
-      <section className="p-4 bg-grey-200">
+      <section className="p-4 bg-gray-200">
         <Image src={terraverdesalse} alt="terra verde salse" ></Image>
         <h2 className="text-xl text-red-800">
           Terra Verde
-          <small className="block text-grey-700">Biologica tradizione dal 1982</small>
+          <small className="block text-gray-700">Biologica tradizione dal 1982</small>
         </h2>
         <p>Blah blah</p>
       </section>
