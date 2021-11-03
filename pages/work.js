@@ -1,4 +1,7 @@
 import Head from 'next/head'
+import Image from 'next/image'
+import terraverdesalse from '../public/work/terraverde-salse.jpg'
+
 
 const page = () => (
   <div>
@@ -22,6 +25,14 @@ const page = () => (
           <li>Social Work</li>
         </ul>
       </nav>
+      <section>
+        <Image src={terraverdesalse} alt="terra verde salse" ></Image>
+        <h2>
+          La Festuca
+          <small>Biologica tradizione ticinese dal 1982</small>
+        </h2>
+        <p>Blah blah</p>
+      </section>
     </main>
   </div>
 )

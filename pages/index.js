@@ -69,7 +69,6 @@ const page = () => (
         <Link href="/contact">Get in Touch</Link>
       </section>
 
-
       <section>
         <header><h1>Collaborations{'&'}Volunteering</h1></header>
 
