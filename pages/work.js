@@ -39,7 +39,7 @@ const page = () => (
           La Festuca
           <small>Biologica tradizione ticinese</small>
         </h2>
-        <p>Blah blah</p>
+        <p>altro</p>
       </section>
   
     </main>
