@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    environment:
+    env:
       BASE_URL: /sarahbonavia-static-web/
     runs-on: ubuntu-latest
 
