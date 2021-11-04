@@ -16,8 +16,8 @@ jobs:
           node-version: '16'
           cache: 'yarn'
       - run: yarn install
-      - run: next build
-      - run: next export
+      - run: yarn build
+      - run: yarn release
       - run: touch ./out/.nojekyll
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
