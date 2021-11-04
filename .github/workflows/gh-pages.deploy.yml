@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: 
+    branches:
       - main
 
 jobs:
@@ -16,11 +16,10 @@ jobs:
           node-version: '16'
           cache: 'yarn'
       - run: yarn install
-      - run: yarn build
-      - run: yarn release
-      - run: touch ./out/.nojekyll
+      - run: yarn generate
+      - run: touch ./dist/.nojekyll
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: gh-pages
-          folder: out
+          folder: dist
