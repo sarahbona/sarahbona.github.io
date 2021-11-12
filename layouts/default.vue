@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header>
+    <header class="bg-gray-100 py-4 px-8 grid grid-cals-2 border-gray-500 border-b"> 
       <p>I’m Sarah Bonavia. I’m visual and multifunctional.</p>
       <nav>
         <li><NuxtLink to="/">Home</NuxtLink></li>
